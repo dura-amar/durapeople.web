@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "name": "Aarav Dura",
+    "role": "Community Leader",
+    "image": "https://placehold.co/400x500/1e293b/cbd5e1?text=Aarav",
+    "story": "Aarav has been a pillar of the Dura community for over 20 years. Starting as a volunteer, he dedicated his life to ensuring that every voice in the community is heard. His initiatives in local education have transformed the lives of hundreds of children."
+  },
+  {
+    "id": 2,
+    "name": "Priya Dura",
+    "role": "Cultural Historian",
+    "image": "https://placehold.co/400x500/1e293b/cbd5e1?text=Priya",
+    "story": "Priya's work in preserving the oral histories of Dura has been instrumental. She has traveled to every corner of the region, recording stories that were on the verge of being lost forever. Her archive is now a treasure trove for future generations."
+  },
+  {
+    "id": 3,
+    "name": "Rohan Dura",
+    "role": "Innovator",
+    "image": "https://placehold.co/400x500/1e293b/cbd5e1?text=Rohan",
+    "story": "Rohan brought modern technology to Dura, but with a twist—he ensured it served the community's traditional values. From setting up the first community Wi-Fi mesh to teaching coding classes to elders, Rohan bridges the gap between the past and the future."
+  },
+  {
+    "id": 4,
+    "name": "Ananya Dura",
+    "role": "Artist",
+    "image": "https://placehold.co/400x500/1e293b/cbd5e1?text=Ananya",
+    "story": "Ananya's murals adorn the walls of Dura, telling the stories of its people in vibrant colors. Her art is not just decoration; it is a dialogue. She organizes workshops where community members come together to paint their collective dreams."
+  },
+  {
+    "id": 5,
+    "name": "Vikram Dura",
+    "role": "Environmentalist",
+    "image": "https://placehold.co/400x500/1e293b/cbd5e1?text=Vikram",
+    "story": "Vikram spearheaded the 'Green Dura' initiative. His tireless efforts in reforestation and waste management have turned Dura into a model of sustainability. He believes that protecting the land is the highest form of honoring one's ancestors."
+  },
+  {
+    "id": 6,
+    "name": "Meera Dura",
+    "role": "Educator",
+    "image": "https://placehold.co/400x500/1e293b/cbd5e1?text=Meera",
+    "story": "Meera 'Didi' is a household name. She runs the evening school for adults, proving that it's never too late to learn. Her patience and wisdom have empowered countless women in Dura to start their own businesses and take charge of their lives."
+  },
+  {
+    "id": 7,
+    "name": "Arjun Dura",
+    "role": "Youth Mentor",
+    "image": "https://placehold.co/400x500/1e293b/cbd5e1?text=Arjun",
+    "story": "Arjun focuses on the next generation. As a former athlete, he uses sports to teach discipline and teamwork to the youth of Dura. He has established several sports clubs that have become safe havens for teenagers."
+  },
+  {
+    "id": 8,
+    "name": "Sanya Dura",
+    "role": "Healthcare Advocate",
+    "image": "https://placehold.co/400x500/1e293b/cbd5e1?text=Sanya",
+    "story": "Sanya has revolutionized local healthcare access. She organized mobile clinics to reach the most remote parts of the Dura community, ensuring that no elder or child goes without necessary medical attention."
+  },
+  {
+    "id": 9,
+    "name": "Kabir Dura",
+    "role": "Musician",
+    "image": "https://placehold.co/400x500/1e293b/cbd5e1?text=Kabir",
+    "story": "Kabir's flute melodies are the soundtrack of Dura. He has revived ancient folk songs that were fading from memory, teaching them to a new choir of young singers who perform at every community festival."
+  },
+  {
+    "id": 10,
+    "name": "Ishaan Dura",
+    "role": "Architect",
+    "image": "https://placehold.co/400x500/1e293b/cbd5e1?text=Ishaan",
+    "story": "Ishaan combines traditional Dura architecture with modern sustainable practices. His designs for the new community center have won awards, but he is most proud of the low-cost, eco-friendly housing he designed for families in need."
+  },
+  {
+    "id": 11,
+    "name": "Zara Dura",
+    "role": "Chef",
+    "image": "https://placehold.co/400x500/1e293b/cbd5e1?text=Zara",
+    "story": "Zara is the guardian of Dura's culinary heritage. She has documented hundreds of family recipes and runs a community kitchen where people can taste the authentic flavors of their history."
+  },
+  {
+    "id": 12,
+    "name": "Vivaan Dura",
+    "role": "Tech Entrepreneur",
+    "image": "https://placehold.co/400x500/1e293b/cbd5e1?text=Vivaan",
+    "story": "Vivaan built a platform that connects Dura artisans with the global market. Thanks to his digital marketplace, local weavers and potters are now selling their crafts to customers around the world."
+  },
+  {
+    "id": 13,
+    "name": "Diya Dura",
+    "role": "Social Worker",
+    "image": "https://placehold.co/400x500/1e293b/cbd5e1?text=Diya",
+    "story": "Diya works tirelessly for the rights of the underprivileged. She has set up support systems for widows and orphans, ensuring they have the resources and community backing to live with dignity."
+  },
+  {
+    "id": 14,
+    "name": "Aryan Dura",
+    "role": "Botanist",
+    "image": "https://placehold.co/400x500/1e293b/cbd5e1?text=Aryan",
+    "story": "Aryan has a deep knowledge of the local flora. He maintains the community garden and teaches others about the medicinal properties of native plants, preserving a knowledge system that dates back centuries."
+  },
+  {
+    "id": 15,
+    "name": "Kavya Dura",
+    "role": "Storyteller",
+    "image": "https://placehold.co/400x500/1e293b/cbd5e1?text=Kavya",
+    "story": "Kavya doesn't just tell stories; she performs them. Her theatrical reenactments of Dura's legends captivate audiences of all ages, keeping the magic of the community's mythology alive and vibrant."
+  }
+]

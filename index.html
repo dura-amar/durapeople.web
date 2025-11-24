@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DuraPeople | The Digital Archive</title>
+    <meta name="description"
+        content="A digital archive honoring the important people and stories of the Dura community.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">DuraPeople</a>
+                <ul class="nav-links">
+                    <li><a href="#archive">The Archive</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-content">
+                <h1 class="hero-title">Voices of <span class="highlight">Dura</span></h1>
+                <p class="hero-subtitle">A digital sanctuary preserving the legacy, stories, and spirit of our
+                    community's most impactful figures.</p>
+                <a href="#archive" class="btn btn-primary">Explore the Archive</a>
+            </div>
+            <div class="hero-background"></div>
+        </section>
+
+        <section id="archive" class="archive-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>The People</h2>
+                    <p>Honoring those who shaped our path.</p>
+                </div>
+
+                <div class="toolbar">
+                    <div class="search-wrapper">
+                        <input type="text" id="search-input" placeholder="Search by name..." aria-label="Search people">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="search-icon">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        </svg>
+                    </div>
+                    <div class="controls-wrapper">
+                        <select id="role-filter" aria-label="Filter by role">
+                            <option value="">All Roles</option>
+                            <!-- Options will be populated by JS -->
+                        </select>
+                        <select id="sort-order" aria-label="Sort people">
+                            <option value="name-asc">Name (A-Z)</option>
+                            <option value="name-desc">Name (Z-A)</option>
+                        </select>
+                        <button id="view-toggle" class="view-toggle-btn" aria-label="Toggle view">
+                            <svg id="grid-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="3" y="3" width="7" height="7"></rect>
+                                <rect x="14" y="3" width="7" height="7"></rect>
+                                <rect x="14" y="14" width="7" height="7"></rect>
+                                <rect x="3" y="14" width="7" height="7"></rect>
+                            </svg>
+                            <svg id="list-icon" class="hidden" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="8" y1="6" x2="21" y2="6"></line>
+                                <line x1="8" y1="12" x2="21" y2="12"></line>
+                                <line x1="8" y1="18" x2="21" y2="18"></line>
+                                <line x1="3" y1="6" x2="3.01" y2="6"></line>
+                                <line x1="3" y1="12" x2="3.01" y2="12"></line>
+                                <line x1="3" y1="18" x2="3.01" y2="18"></line>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <div id="people-grid" class="people-grid">
+                    <!-- People cards will be injected here by JS -->
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="about-content">
+                    <h2>About This Archive</h2>
+                    <p>The DuraPeople project is a community-driven initiative to document the oral histories and
+                        contributions of our members. This digital space ensures that their wisdom and sacrifices are
+                        never forgotten.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2024 Dura Community. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Story Modal -->
+    <div id="story-modal" class="modal" aria-hidden="true">
+        <div class="modal-overlay" tabindex="-1" data-close></div>
+        <div class="modal-content" role="dialog" aria-modal="true">
+            <button class="modal-close" aria-label="Close modal" data-close>&times;</button>
+            <div class="modal-body">
+                <div class="modal-image-wrapper">
+                    <img id="modal-image" src="" alt="">
+                </div>
+                <div class="modal-text">
+                    <h2 id="modal-name"></h2>
+                    <p id="modal-role" class="modal-role"></p>
+                    <div id="modal-story" class="modal-story-content"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
